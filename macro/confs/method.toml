@@ -1,0 +1,16 @@
+[basic]
+derive = "Debug"
+
+[[structs]]
+name = "person1"
+tagged = "named"
+fields = [{"name" = "String"},{"age" = "u32"}]
+
+[[structs]]
+name = "Person2"
+tagged = "unit"
+
+[[structs]]
+name = "Person3"
+tagged = "tuple"
+fields = [{"name" = "String"},{"age" = "u32"}]
